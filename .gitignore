@@ -8,7 +8,50 @@
 /.vagrant
 Homestead.json
 Homestead.yaml
-npm-debug.log
-yarn-error.log
 .env
 .phpunit.result.cache
+
+# Logs
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### System Files ###
+*.DS_Store
+
+# Folder config file
+Desktop.ini
+
+# Thumbnails
+._*
+
+#Build generated
+dist/
+build/
+
+# Yarn Integrity file
+.yarn-integrity
+
+### WebStorm/IntelliJ ###
+/.idea
+modules.xml
+*.ipr
+*.iml
+
+### Vim ###
+*.sw[a-p]
+
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
